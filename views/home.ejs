@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="css/home.css" />
+<div class="folder_continer">
+  <% files.forEach(element => { %>
+  <div>
+    <a href="/open/?id=<%= element._id %>" class="folder">
+      <img src="image/folder image.png" alt="folder image" class="image_size" />
+      <%= element.filename %>
+    </a>
+  </div>
+
+  <% }) %>
+</div>

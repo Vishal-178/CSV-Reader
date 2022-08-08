@@ -1,0 +1,21 @@
+<header>
+  <div class="navBar">
+    <div>
+      <a class="navTitle" href="/">CSS Upload</a>
+    </div>
+    <div>
+      <form action="/file-upload" method="post" enctype="multipart/form-data">
+        <div class="insideForm">
+          <input
+            type="file"
+            class="custom-file-input"
+            name="file"
+            placeholder="CSV File"
+            accept=".csv"
+          />
+          <input type="submit" value="Submit" class="submitButton" />
+        </div>
+      </form>
+    </div>
+  </div>
+</header>
